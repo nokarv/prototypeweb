@@ -8,8 +8,8 @@
 
 /* ini navbar*/
 .all{
-   
-       background: linear-gradient(325deg,  #03001e 0%,#7303c0 30%,#ec38bc 70%, #fdeff9 100%);
+   background-color: rgb(28,28,216);
+    
 }
 @media screen and (max-width:600px){
     .all{
