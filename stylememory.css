@@ -3,16 +3,16 @@
 }
 .navbarmem{
     width: 100%;
-    height: 10%;
+    height: 20%;
 }
 
 
 .game {
-   margin-bottom:30px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90%;
+    height: 80%;
 
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
@@ -57,7 +57,7 @@ button {
     justify-content: center;
     align-items: center;
     height: fit-content;
-    width: fit-content;
+    width:fit-content;
     }
     
 
@@ -81,7 +81,6 @@ button {
     grid-template-columns: repeat(4, auto);
     grid-gap: 20px;
     width: fit-content;
- 
     height: fit-content;
 }
 .board-container.flipped .board {
@@ -142,4 +141,5 @@ button {
 .highlight {
     color: #7303c0;
 }
+
 
