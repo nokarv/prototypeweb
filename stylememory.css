@@ -16,6 +16,8 @@
    flex-direction: column;
 }
 .game {
+   width:min-content;
+   height:fit-content;
 margin-bottom: 5px;
     position: relative;
    
