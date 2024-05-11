@@ -48,7 +48,7 @@ button {
     margin: 0 auto;
     border: 5px solid none;
    width: max-content;
-    height: 90%;
+    height: max-content;
     position: relative;
     margin-bottom: 5px;
  }
@@ -57,7 +57,7 @@ button {
     justify-content: center;
     align-items: center;
     height: fit-content;
-    width: fit fit-content;
+    width: fit-content;
     }
     
 
