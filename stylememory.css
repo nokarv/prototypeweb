@@ -80,9 +80,9 @@
      padding: 20px;
      display: grid;
      grid-template-columns: repeat(4, auto);
-     grid-gap: 20px;
+     grid-gap: 15px;
      width: 75vw;
-     height: 615px;
+     height: 610px;
  }
  .board-container.flipped .board {
      transform: rotateY(180deg) rotateZ(50deg);
