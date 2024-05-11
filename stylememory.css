@@ -81,7 +81,7 @@
      display: grid;
      grid-template-columns: repeat(4, auto);
      grid-gap: 15px;
-     width: 75vw;
+     width: 78vw;
      height: 610px;
  }
  .board-container.flipped .board {
