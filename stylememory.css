@@ -80,8 +80,8 @@ button {
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(4, auto);
-    grid-gap: 20px;
-    width: 80w;
+    grid-gap: 10px;
+    width: 65vw;
     height: 615px;
 }
 .board-container.flipped .board {
@@ -94,7 +94,7 @@ button {
     
     position: relative;
     width: 15vw;
-    height: 20vh;
+    height: 15vh;
     cursor: pointer;
 }
 .card-front,
