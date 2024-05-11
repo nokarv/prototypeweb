@@ -8,7 +8,7 @@
 
 
 .game {
-    margin-bottom: 40px;
+   
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -80,8 +80,8 @@ button {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 20px;
-    width: fit-content;
-    height: fit-content;
+    width: 80w;
+    height: 80vh;
 }
 .board-container.flipped .board {
     transform: rotateY(180deg) rotateZ(50deg);
@@ -92,8 +92,8 @@ button {
 .card {
     
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 15vw;
+    height: 15vh;
     cursor: pointer;
 }
 .card-front,
@@ -141,5 +141,4 @@ button {
 .highlight {
     color: #7303c0;
 }
-
 
