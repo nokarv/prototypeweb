@@ -1,143 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Pukul Tikus Tanah</title>
-  <link rel="stylesheet" href="stylewreck.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="blackjack.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylewreck.css">
+    <title>Document</title>
 </head>
 <body class="all">
-    <div class="Navbar">
-        <ul class="ulnavbar">
-          <li class=" linavbar"><a class = "menunavbar" href="index.html">Home</a></li>
-          <li class=" linavbar"><a class= "menunavbar"href="info.html">Info</a></li>
-          <li class="linavbar"><a class="menunavbar" href="login.html">Register</a></li>
-        </ul>
-       </div>
-       <br></br>
+  <div class="Navbar">
+    <ul class="ulnavbar">
+      <li class=" linavbar"><a class = "menunavbar" href="index.html">Home</a></li>
+      <li class=" linavbar"><a class= "menunavbar"href="info.html">Info</a></li>
+      <li class="linavbar"><a class="menunavbar" href="register.html">Register</a></li>
 
-<div class="contentbb">
- <div class="borderw">
-   <br>
-    <button type="button" class="mulai" onclick="mulai()">Start</button>
-   <h3 >time: </h3>
-    <h2 class="papan-skor">0</h2>
-
-    
-    <div class="containerw">
-      <div class="tanah">
-        <div class="tikus"></div>
-      </div>
-      <div class="tanah">
-        <div class="tikus"></div>
-      </div>
-      <div class="tanah">
-        <div class="tikus"></div>
-      </div>
-      <div class="tanah">
-        <div class="tikus"></div>
-      </div>
-      <div class="tanah">
-        <div class="tikus"></div>
-      </div>
-      <div class="tanah">
-        <div class="tikus"></div>
-      </div>
+    </ul>
+   </div>
+   
+    <h1 class="score">SCORE: <span>00</span></h1>
+    <div class="board">
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
     </div>
-    <style>
-    h1, h2 {
-  font-size: 60px;
-  text-align: center;
-  font-family: sans-serif;
-  margin: 10px;
-}
-h3{
-  font-size: 20px;
-  text-align: center;
-  font-family: sans-serif;
-  padding: 5px;
-}
+    <div class="cursor"></div>
 
-button {
-  display: block;
-  margin: auto;
-  width: 100px;
-  height: 50px;
-  background-color: brown;
-  font-size: 30px;
-}
-
-.containerw {
-  width: 300px;
-  margin: auto;
-  cursor: url(palu1.png), auto;
-}
-
-.container:active {
-  cursor: url(palu2.png), auto;
-}
-
-.tanah {
-  width: 25%;
-  height:25%;
-  position: relative;
-  overflow: hidden;
-  float: left;
-}
-.tikus{
-  width: 25%;
-  height: 25%;
-  background: url(tikus.png) bottom center no-repeat;
-  background-size: 60%;
-  position: absolute;
-  top: 100px;
-  transition: top 0.3s;
-}
-
-.tanah::after {
-  content: '';
-  display: block;
-  width: 200px;
-  height: 100px;
-  background: url(tanah.png) bottom center no-repeat;
-  background-size: 80%;
-  position: absolute;
-  bottom: -25px;
-}
-
-.tikus {
-  width: 100%;
-  height: 100%;
-  background: url(tikus.png) bottom center no-repeat;
-  background-size: 60%;
-  position: absolute;
-  top: 100px;
-  transition: top 0.3s;
-}
-
-.tanah.muncul .tikus {
-  top: -15px;
-}
-.borderw{
-  height: fit-content;
-  width: fit-content;
-  background-size: cover;
-  margin: 0 auto;
-  background: url("./soil.png");
-  border: 3px solid white;
-  border-radius: 25px;
-  
-
-}
-
-    </style>
-
-    <audio src="audio_Pop.mp3" id="pop"></audio>
     <script src="wreck.js"></script>
- </div>
-</div>
+</body>
+</html>
 
 </body>
 
