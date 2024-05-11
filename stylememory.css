@@ -82,7 +82,7 @@ button {
     grid-template-columns: repeat(4, auto);
     grid-gap: 20px;
     width: 80w;
-    height: 500px;
+    height: 615px;
 }
 .board-container.flipped .board {
     transform: rotateY(180deg) rotateZ(50deg);
@@ -94,7 +94,7 @@ button {
     
     position: relative;
     width: 15vw;
-    height: 15vh;
+    height: 20vh;
     cursor: pointer;
 }
 .card-front,
@@ -142,5 +142,6 @@ button {
 .highlight {
     color: #7303c0;
 }
+
 
 
