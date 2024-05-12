@@ -30,7 +30,7 @@ body{
   background: url("./soil.png");
   background-size: cover;
   height: 80vh;
-  width: 85vw;
+  width: 92vw;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
