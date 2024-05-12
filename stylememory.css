@@ -46,15 +46,16 @@
  }
  .board-container {
      margin: 0 auto;
+     
      border: 5px solid none;
-    width: max-content;
-     height: max-content;
+    width: fit-content;
+     height: fit-content;
      position: relative;
      margin-bottom: 5px;
   }
  
      .board{
-         justify-content: center;
+    justify-content: center;
     display: flex;
     align-items: center;
      height: fit-content;
@@ -81,8 +82,9 @@
      display: grid;
      grid-template-columns: repeat(4, auto);
      grid-gap: 15px;
-     width: 78vw;
-     height: 610px;
+     width: 80vw;
+     /* height: 610px; */
+     height: 85vh;
  }
  .board-container.flipped .board {
      transform: rotateY(180deg) rotateZ(50deg);
@@ -142,6 +144,5 @@
  .highlight {
      color: #7303c0;
  }
-
 
 
